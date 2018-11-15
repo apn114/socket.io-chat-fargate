@@ -142,6 +142,14 @@ io.on('connection', function(socket) {
         image: '/images/ecs.png',
         status: 'none',
         onlineCount: 0
+      },
+      {
+        id: 'mychat',
+        name: 'My Chat',
+        preview: 'Personal Chat Room',
+        image: '/images/mychat.png',
+        status: 'none',
+        onlineCount: 0
       }
     ]);
   });
